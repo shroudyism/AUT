@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+            <item name="verticalRecyclerViewStyle">@style/VerticalRecyclerView</item>
+
+    </style>
+
+
+        <attr name="verticalRecyclerViewStyle" format="reference"/>
+
+        <style name="VerticalRecyclerView" parent="android:Widget">
+            <item name="android:scrollbars">vertical</item>
+        </style>
+
+
+</resources>
